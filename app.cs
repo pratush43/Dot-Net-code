@@ -21,7 +21,7 @@ namespace App
             {
                 TcpClient client = server.AcceptTcpClient();
 
-                string html = "Hello from C# - simulating new line of code";
+                string html = "Hello from C# - simulating new line of code as new";
 
                 string[] headers = {
                     "HTTP/1.1 200 OK",
